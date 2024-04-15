@@ -115,6 +115,12 @@ main label {
     padding-right: 3rem;
 }
 
+main .plan,
+.last-plan {
+    border: .1px solid #d0d0d3;
+    margin-top: 3rem;
+}
+
 main .plans .plan {
     border: .1px solid #d0d0d3;
     width: calc((100% /3) - 2rem);
@@ -123,25 +129,42 @@ main .plans .plan {
 main .plans {
     display: flex;
     justify-content: space-between;
-    padding-top: 3rem;
+
+}
+
+main .last-plan .content {
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+main .last-plan .content p {
+    width: 90%;
 }
 
 .plan-name {
+    align-items: center;
     text-align: center;
     border-bottom: .1px solid #d0d0d3;
     padding: .5rem;
 }
 
-main .plan .content {
-    padding: 2rem 2rem;
+main .plan button,
+.last-plan button {
+    width: 100%;
 }
 
-.plan h3 {
+main .plan .content {
+    padding: 2.2rem;
+}
+
+.plan h3,
+.last-plan h3 {
     font-size: 1.5rem;
     padding-bottom: 1rem;
 }
 
-main .plan p {
+main .plan .content p {
     padding-bottom: 1.5rem;
 }
 
@@ -149,11 +172,17 @@ main .plan .content div {
     padding-bottom: 2rem;
 }
 
-main .plan strong {
+main .plan strong,
+.last-plan strong {
     font-weight: 600;
 }
 
-main .plan i {
+main .last-plan .content p:last-of-type {
+    padding: 3rem 0 1rem 0;
+}
+
+main .plan i,
+.last-plan i {
     padding-right: .3rem;
 }
 
@@ -162,8 +191,10 @@ main .plan span {
     padding-bottom: 2rem;
 }
 
+main .bottom-plan p:first-child {
+    padding-top: 1.5rem;
+}
 
-
-main .plan .bottom-plan i {
+main .bottom-plan i {
     color: #0061ff;
 }
