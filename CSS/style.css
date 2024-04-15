@@ -10,6 +10,17 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+.flex {
+    display: flex;
+    position: relative;
+}
+
+
+.flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -46,4 +57,44 @@ button {
     border: none;
     background-color: #0061ff;
     color: white;
+}
+
+
+div.conteiner {
+    margin: auto;
+    max-width: 1200px;
+    padding-top: 5rem;
+}
+
+main .jumbo {
+    background-color: #b4d0e7;
+}
+
+main h1 {
+    font-size: 5rem;
+    padding-bottom: 3rem;
+}
+
+[alt="Dropbox-app-sample"] {
+    width: 52.5rem;
+    position: absolute;
+    right: 0;
+}
+
+.jumbo .small-text {
+    max-width: 360px;
+}
+
+.small-text {
+    text-align: left;
+}
+
+main button {
+    padding: .8rem 1rem;
+    margin: 1.5rem 0;
+}
+
+main .jumbo i {
+    font-size: 3rem;
+    padding: 5rem 0 1rem 0;
 }
