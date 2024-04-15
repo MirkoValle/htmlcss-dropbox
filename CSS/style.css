@@ -69,7 +69,7 @@ button {
 .small-conteiner {
     margin: auto;
     max-width: 1000px;
-    padding-top: 8rem;
+    padding-top: 9rem;
 }
 
 main .jumbo {
@@ -87,12 +87,13 @@ main h1 {
     right: 0;
 }
 
-.jumbo .small-text {
+.jumbo .text {
     max-width: 360px;
 }
 
 .small-text {
-    text-align: left;
+    font-size: .9rem;
+    font-weight: 100;
 }
 
 main button {
@@ -105,11 +106,64 @@ main .jumbo i {
     padding: 5rem 0 1rem 0;
 }
 
-main .plans h2 {
+main h2 {
     font-size: 2.5rem;
     padding-bottom: 3rem;
 }
 
 main label {
     padding-right: 3rem;
+}
+
+main .plans .plan {
+    border: .1px solid #d0d0d3;
+    width: calc((100% /3) - 2rem);
+}
+
+main .plans {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 3rem;
+}
+
+.plan-name {
+    text-align: center;
+    border-bottom: .1px solid #d0d0d3;
+    padding: .5rem;
+}
+
+main .plan .content {
+    padding: 2rem 2rem;
+}
+
+.plan h3 {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+
+main .plan p {
+    padding-bottom: 1.5rem;
+}
+
+main .plan .content div {
+    padding-bottom: 2rem;
+}
+
+main .plan strong {
+    font-weight: 600;
+}
+
+main .plan i {
+    padding-right: .3rem;
+}
+
+main .plan span {
+    border-bottom: 1px solid #d0d0d3;
+    padding-bottom: 2rem;
+}
+
+
+
+main .plan .bottom-plan i {
+    color: #0061ff;
 }
