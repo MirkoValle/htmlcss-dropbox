@@ -110,11 +110,11 @@ main h1 {
     right: 0;
 }
 
-main .img-disp {
+main .big-disp {
     width: 70%;
 }
 
-main .text-disp {
+main .little-disp {
     width: 30%;
 }
 
@@ -236,7 +236,7 @@ main .partner img {
     width: 60%;
 }
 
-main .partner .text-disp {
+main .partner .little-disp {
     width: 40%;
     padding: 0 3rem 0 3rem;
 }
@@ -259,4 +259,25 @@ main .operations article h3 {
 main .operations article img {
     object-fit: cover;
     width: 100%;
+}
+
+main .logos {
+    padding-top: 9rem;
+}
+
+main .logos div {
+    width: calc(100% / 3);
+}
+
+main .logos article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% / 2);
+    height: 320px;
+}
+
+main .logos article img {
+    object-position: center;
+    width: 50%;
 }
