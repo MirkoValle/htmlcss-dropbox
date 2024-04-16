@@ -353,3 +353,19 @@ main .free-trial h2 {
 main .free-trial {
     padding-bottom: 9rem;
 }
+
+main .QeA h2 {
+    border-bottom: 1px solid #999999;
+}
+
+main .QeA li {
+    align-items: center;
+    padding: 2.5rem 0;
+    border-bottom: 1px solid #999999;
+    font-weight: bold;
+}
+
+main .QeA i {
+    font-size: .8rem;
+    padding-right: 2.5rem;
+}
