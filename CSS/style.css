@@ -96,7 +96,7 @@ button {
     padding-top: 9rem;
 }
 
-main .jumbo {
+.bg-color {
     background-color: #b4d0e7;
 }
 
@@ -335,4 +335,21 @@ main .logos div span {
 
 #logo-cco {
     background-color: #ffd830;
+}
+
+
+main .free-trial button {
+    border: none;
+    width: 100%;
+    margin: 0;
+}
+
+main .free-trial h2 {
+    color: #61082b;
+    width: 80%;
+    padding: 0;
+}
+
+main .free-trial {
+    padding-bottom: 9rem;
 }
