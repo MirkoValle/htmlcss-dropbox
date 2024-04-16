@@ -37,9 +37,12 @@ header li {
     flex-direction: column;
 }
 
-header {
+.flex-between {
     display: flex;
     justify-content: space-between;
+}
+
+header {
     padding: 1.5rem 1.5rem 1.5rem 0;
 }
 
@@ -68,6 +71,13 @@ button {
     color: white;
 }
 
+.white-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-weight: 100;
+}
+
 .big-conteiner {
     margin: auto;
     max-width: 1200px;
@@ -90,13 +100,16 @@ main h1 {
 }
 
 [alt="Dropbox-app-sample"] {
-    width: 52.5rem;
     position: absolute;
     right: 0;
 }
 
-.text-disp {
-    max-width: 30%;
+main .img-disp {
+    width: 70%;
+}
+
+main .text-disp {
+    width: 30%;
 }
 
 main button {
@@ -211,4 +224,18 @@ main .bottom-plan i {
 
 main .bottom-plan {
     margin-top: 2.5rem;
+}
+
+main .partner img {
+    width: 60%;
+}
+
+main .partner .text-disp {
+    width: 40%;
+    padding: 0 3rem 0 3rem;
+}
+
+main .partner h2 {
+    font-size: 1.5rem;
+    padding: 3rem 0 1rem 0;
 }
