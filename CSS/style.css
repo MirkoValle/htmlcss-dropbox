@@ -369,3 +369,47 @@ main .QeA i {
     font-size: .8rem;
     padding-right: 2.5rem;
 }
+
+main .small-conteiner:last-child {
+    padding-bottom: 9rem;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding-bottom: 3rem;
+}
+
+footer h2 {
+    padding-bottom: 2rem;
+}
+
+footer ul {
+    list-style: none;
+
+}
+
+footer li {
+    padding-bottom: 1rem;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer section {
+    padding-bottom: 5rem;
+}
+
+footer p {
+    align-items: center;
+    width: 8rem;
+    border-top: 1px solid white;
+    color: #999999;
+    padding-top: 3rem;
+}
+
+footer i:last-child {
+    padding-right: 2rem;
+}
