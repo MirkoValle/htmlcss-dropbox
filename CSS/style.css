@@ -33,11 +33,6 @@ header ul {
     list-style: none;
 }
 
-header div.logo {
-    display: flex;
-    align-items: center;
-    padding-right: 1rem;
-}
 
 header a {
     padding: 0 1.3rem;
