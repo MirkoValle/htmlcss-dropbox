@@ -10,11 +10,27 @@ body {
     font-family: "Open Sans", sans-serif;
 }
 
+p {
+    font-weight: 100;
+}
+
+.plans p,
+.last-plan p {
+    font-size: .9rem;
+}
+
+li {
+    font-weight: 100;
+}
+
+header li {
+    padding: 0 1.5rem;
+}
+
 .flex {
     display: flex;
     position: relative;
 }
-
 
 .flex-column {
     display: flex;
@@ -24,7 +40,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1.5rem 1.25rem;
+    padding: 1.5rem 1.5rem 1.5rem 0;
 }
 
 header ul {
@@ -33,9 +49,7 @@ header ul {
     list-style: none;
 }
 
-
 header a {
-    padding: 0 1.3rem;
     color: black;
     text-decoration: none;
 }
@@ -53,7 +67,6 @@ button {
     background-color: #0061ff;
     color: white;
 }
-
 
 .big-conteiner {
     margin: auto;
@@ -82,13 +95,8 @@ main h1 {
     right: 0;
 }
 
-.jumbo .text {
-    max-width: 360px;
-}
-
-.small-text {
-    font-size: .9rem;
-    font-weight: 100;
+.text-disp {
+    max-width: 30%;
 }
 
 main button {
@@ -124,17 +132,32 @@ main .plans .plan {
 main .plans {
     display: flex;
     justify-content: space-between;
+}
 
+main .plan ul {
+    list-style: none;
+    padding-top: 2rem;
+}
+
+main .plan li {
+    padding-bottom: 1rem;
+    font-size: .9rem;
+    display: flex;
 }
 
 main .last-plan .content {
     display: flex;
     justify-content: space-around;
-    padding: 1rem;
+    padding: 1.5rem;
 }
 
 main .last-plan .content p {
     width: 90%;
+}
+
+main .plan button,
+.last-plan button {
+    font-size: .9rem;
 }
 
 .plan-name {
@@ -150,7 +173,7 @@ main .plan button,
 }
 
 main .plan .content {
-    padding: 2.2rem;
+    padding: 2rem;
 }
 
 .plan h3,
@@ -160,11 +183,7 @@ main .plan .content {
 }
 
 main .plan .content p {
-    padding-bottom: 1.5rem;
-}
-
-main .plan .content div {
-    padding-bottom: 2rem;
+    padding-bottom: .5rem;
 }
 
 main .plan strong,
@@ -183,13 +202,13 @@ main .plan i,
 
 main .plan span {
     border-bottom: 1px solid #d0d0d3;
-    padding-bottom: 2rem;
-}
-
-main .bottom-plan p:first-child {
-    padding-top: 1.5rem;
+    padding-bottom: 2.5rem;
 }
 
 main .bottom-plan i {
     color: #0061ff;
+}
+
+main .bottom-plan {
+    margin-top: 2.5rem;
 }
