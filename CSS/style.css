@@ -37,6 +37,12 @@ header li {
     flex-direction: column;
 }
 
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .flex-between {
     display: flex;
     justify-content: space-between;
@@ -238,4 +244,19 @@ main .partner .text-disp {
 main .partner h2 {
     font-size: 1.5rem;
     padding: 3rem 0 1rem 0;
+}
+
+main .operations article {
+    width: calc((100% / 3) - 2.8rem);
+    padding-bottom: 3rem;
+}
+
+main .operations article h3 {
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+main .operations article img {
+    object-fit: cover;
+    width: 100%;
 }
