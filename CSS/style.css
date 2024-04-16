@@ -280,6 +280,7 @@ main .logos article {
 main .logos article img {
     object-position: center;
     width: 50%;
+    filter: invert(100%);
 }
 
 main .logos div:nth-child(2) {
@@ -348,10 +349,6 @@ main .free-trial h2 {
     color: #61082b;
     width: 80%;
     padding: 0;
-}
-
-main .free-trial {
-    padding-bottom: 9rem;
 }
 
 main .QeA h2 {
