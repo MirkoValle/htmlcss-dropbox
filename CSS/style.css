@@ -282,6 +282,23 @@ main .logos article img {
     width: 50%;
 }
 
+main .logos div:nth-child(2) {
+    padding: 3.5rem;
+}
+
+main .logos div:nth-child(2) img {
+    width: 17rem;
+    padding-bottom: 2.5rem;
+}
+
+main .logos div p {
+    padding-bottom: 3rem;
+}
+
+main .logos div span {
+    color: #d0d0d3;
+}
+
 #logo-des {
     background-color: #a2d39b;
     border: 1rem solid #d1e9cd;
