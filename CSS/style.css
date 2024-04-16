@@ -281,3 +281,41 @@ main .logos article img {
     object-position: center;
     width: 50%;
 }
+
+#logo-des {
+    background-color: #a2d39b;
+    border: 1rem solid #d1e9cd;
+}
+
+#logo-asu {
+    background-color: #61082b;
+}
+
+#logo-uf {
+    background-color: #0093ce;
+}
+
+
+#logo-topps {
+    background-color: #ff1c1c;
+}
+
+
+#logo-wbc {
+    background-color: #d5001f;
+}
+
+
+#logo-hc {
+    background-color: #b4d0e7;
+}
+
+
+#logo-lp {
+    background-color: #0d2481;
+}
+
+
+#logo-cco {
+    background-color: #ffd830;
+}
