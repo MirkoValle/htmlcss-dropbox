@@ -400,11 +400,25 @@ main .accordion li {
     padding: 2.5rem 0;
     border-bottom: 1px solid #999999;
     font-weight: bold;
+    justify-content: flex-start;
+}
+
+main .accordion div {
+    width: 100%;
+}
+
+main .accordion p {
+    display: none;
+    padding: 3rem 9rem 0 0;
 }
 
 main .accordion i {
     font-size: .8rem;
     padding-right: 2.5rem;
+}
+
+li:hover p {
+    display: inline-block;
 }
 
 main .small-container:last-child {
