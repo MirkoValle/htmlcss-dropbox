@@ -4,15 +4,18 @@
     box-sizing: border-box;
 }
 
-body {
+
+html {
     margin: auto;
     max-width: 1920px;
     font-family: "Open Sans", sans-serif;
+    scroll-behavior: smooth;
 }
 
 p {
     font-weight: 300;
 }
+
 
 .plans p,
 .last-plan p {
@@ -25,6 +28,7 @@ li {
 
 header li {
     padding: 0 1.5rem;
+
 }
 
 .flex {
@@ -57,6 +61,11 @@ hr {
 
 header {
     padding: 1.5rem 1.5rem 1.5rem 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    background-color: white;
 }
 
 header ul {
@@ -65,7 +74,12 @@ header ul {
     list-style: none;
 }
 
-header a {
+.jumbo {
+    padding-top: 83px;
+}
+
+header a,
+.jumbo a {
     color: black;
     text-decoration: none;
 }
@@ -82,6 +96,7 @@ button {
     border: none;
     background-color: #0061ff;
     color: white;
+    cursor: pointer;
 }
 
 .white-btn {
