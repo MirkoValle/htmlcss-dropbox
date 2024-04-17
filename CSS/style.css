@@ -11,7 +11,7 @@ body {
 }
 
 p {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 .plans p,
@@ -20,7 +20,7 @@ p {
 }
 
 li {
-    font-weight: 100;
+    font-weight: 300;
 }
 
 header li {
@@ -46,6 +46,13 @@ header li {
 .flex-between {
     display: flex;
     justify-content: space-between;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #d0d0d3;
+    margin: 2.5rem 0 1rem 0;
+    width: 3rem;
 }
 
 header {
@@ -219,18 +226,11 @@ main .plan i,
     padding-right: .3rem;
 }
 
-main .plan span {
-    border-bottom: 1px solid #d0d0d3;
-    padding-bottom: 2.5rem;
-}
 
 main .bottom-plan i {
     color: #0061ff;
 }
 
-main .bottom-plan {
-    margin-top: 2.5rem;
-}
 
 main .partner img {
     width: 60%;
@@ -292,13 +292,16 @@ main .logos div:nth-child(2) img {
     padding-bottom: 2.5rem;
 }
 
+main .logos hr {
+    margin-top: 0;
+    padding-bottom: 2rem;
+    width: 7rem;
+}
+
 main .logos div p {
     padding-bottom: 3rem;
 }
 
-main .logos div span {
-    color: #d0d0d3;
-}
 
 #logo-des {
     background-color: #a2d39b;
@@ -383,7 +386,6 @@ footer h2 {
 
 footer ul {
     list-style: none;
-
 }
 
 footer li {
@@ -401,12 +403,11 @@ footer section {
 
 footer p {
     align-items: center;
-    width: 8rem;
-    border-top: 1px solid white;
+    width: 6rem;
     color: #999999;
-    padding-top: 3rem;
+    padding-top: 3.5rem;
 }
 
-footer i:last-child {
-    padding-right: 2rem;
+footer hr {
+    width: 8rem;
 }
