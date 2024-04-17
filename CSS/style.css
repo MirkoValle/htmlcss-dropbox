@@ -91,13 +91,13 @@ button {
     font-weight: 100;
 }
 
-.big-conteiner {
+.big-container {
     margin: auto;
     max-width: 1200px;
     padding-top: 5rem;
 }
 
-.small-conteiner {
+.small-container {
     margin: auto;
     max-width: 1000px;
     padding-top: 9rem;
@@ -117,11 +117,11 @@ main h1 {
     right: 0;
 }
 
-main .big-disp {
+main .bigger-area {
     width: 70%;
 }
 
-main .little-disp {
+main .small-area {
     width: 30%;
 }
 
@@ -236,7 +236,7 @@ main .partner img {
     width: 60%;
 }
 
-main .partner .little-disp {
+main .partner .small-area {
     width: 40%;
     padding: 0 3rem 0 3rem;
 }
@@ -354,23 +354,23 @@ main .free-trial h2 {
     padding: 0;
 }
 
-main .QeA h2 {
+main .accordion h2 {
     border-bottom: 1px solid #999999;
 }
 
-main .QeA li {
+main .accordion li {
     align-items: center;
     padding: 2.5rem 0;
     border-bottom: 1px solid #999999;
     font-weight: bold;
 }
 
-main .QeA i {
+main .accordion i {
     font-size: .8rem;
     padding-right: 2.5rem;
 }
 
-main .small-conteiner:last-child {
+main .small-container:last-child {
     padding-bottom: 9rem;
 }
 
@@ -409,5 +409,5 @@ footer p {
 }
 
 footer hr {
-    width: 8rem;
+    width: 7.5rem;
 }
