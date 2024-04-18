@@ -13,23 +13,25 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: white;
-    padding: 1.5rem;
-    border-bottom: 1px solid #ede9e3;
+    padding: 1.5rem 3rem;
+    border-bottom: 1px solid #c9c5bd;
 }
 
 
-section {
+main section {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 5rem;
+    padding: 5rem 0 15rem 0;
 }
 
 h1 {
     font-size: 2rem;
-    padding-bottom: 1rem;
+    padding-bottom: 2rem;
+    font-weight: 300;
 }
 
 div.account {
@@ -38,13 +40,97 @@ div.account {
 }
 
 div.account i {
-    padding-right: 3rem;
+    padding-right: 5rem;
+    font-size: 1.5rem;
 }
 
 div.account button {
     background-color: white;
     font-size: 1rem;
-    padding: .5rem 5rem .5rem .5rem;
+    padding: .5rem 6rem .5rem 1rem;
     border: 1px solid #c9c5bd;
     margin-bottom: 1rem;
+}
+
+
+svg {
+    width: 1.2rem;
+    margin-right: 4.5rem;
+}
+
+div.oppure {
+    padding-bottom: 1rem;
+}
+
+div.oppure span {
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+
+div.oppure hr {
+    display: inline-block;
+    width: 8.5rem;
+    border-bottom: none;
+    border-top: 1px solid #c9c5bd;
+}
+
+input {
+    padding: .7rem 6.5rem;
+    border: 1px solid #c9c5bd;
+    margin-bottom: 2rem;
+}
+
+.input p {
+    font-weight: 100;
+    color: #646464;
+    padding-bottom: .5rem;
+}
+
+button.next {
+    font-size: 1rem;
+    font-weight: 900;
+    color: white;
+    background-color: #0058e7;
+    border: none;
+    padding: 1rem 9.3rem;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+footer section {
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    padding: 0 0 2rem 0;
+}
+
+footer ul {
+    display: flex;
+    align-self: flex-start;
+    list-style: none;
+}
+
+footer li {
+    padding-right: 2rem;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+footer div {
+    display: flex;
+    margin: auto;
+    max-width: 1200px;
+    padding: 2rem 0;
+}
+
+footer hr {
+    margin-left: 22.5rem;
+    max-width: 10rem;
+}
+
+footer div p {
+    padding: 0 .5rem;
 }
